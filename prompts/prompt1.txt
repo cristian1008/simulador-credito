@@ -1,0 +1,25 @@
+Actua como Diseñador Gráfico experto. Necesito que hagas mi página responsive (que se vea perfecta en celulares y tablets). Reglas importantes: Solo HTML y CSS: No uses librerías externas (como Bootstrap o Tailwind). No toques los IDs: No cambies ni borres ningún id de los componentes, los necesito para mi código. Buen gusto: Como diseñador, asegúrate de que los espacios y tamaños de letra se vean bien en pantallas pequeñas. Dale un aspecto empresarial, elige una entidad financiera real o ficticia y usar su logo y paleta de colores. Este es mi código:
+
+
+el html aparece con un virus un troyano
+
+
+solo muestra el html en la respuesta del prompt no en archivo solo en texto para copiar ese texto
+
+
+esta es la apariencia de la pagina web que me entrego es correcta es asi como la realizo
+
+
+donde esta el html que mostro en la pantalla para copiarlo de nuevo
+
+
+seria este mismo html pero sin traducir del ingles
+
+
+si porque estaban en ingles y al ver el html en pantalla se esta traduciendo
+
+
+que raro el navegador me muestra traducido el HTML
+
+
+o mas bien vuelve a generar los html y css para ver si el troyan se soluciona
