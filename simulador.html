@@ -33,11 +33,17 @@
             <div class="campos-grid">
                 <div class="campo">
                     <label for="txtIngresos">Ingresos mensuales ($)</label>
-                    <input type="number" id="txtIngresos" min="0" step="any" placeholder="Ej. 3000000" inputmode="decimal">
+                    <input type="text" id="txtIngresos" min="0" step="any" placeholder="Ej. 3000.50" inputmode="decimal" maxlength="8">
+                    <!-- <input type="text" id="txtIngresos" inputmode="numeric" placeholder="Ej. 30000" maxlength="5"> -->
+                    <small id="errorIngresos" class="mensaje-error" aria-live="polite"></small>
+                    <!-- <input type="text" id="txtIngresos" inputmode="decimal" maxlength="8" placeholder="Ej. 3000.50"> -->
                 </div>
                 <div class="campo">
                     <label for="txtEgresos">Gastos mensuales ($)</label>
-                    <input type="number" id="txtEgresos" min="0" step="any" placeholder="Ej. 1200000" inputmode="decimal">
+                    <input type="text" id="txtEgresos" min="0" step="any" placeholder="Ej. 1200.25" inputmode="decimal" maxlength="8">
+                    <!-- <input type="text" id="txtEgresos" inputmode="numeric" placeholder="Ej. 12000" maxlength="5"> -->
+                    <small id="errorEgresos" class="mensaje-error" aria-live="polite"></small>
+                    <!-- <input type="text" id="txtEgresos" inputmode="decimal" maxlength="8" placeholder="Ej. 1200.25"> -->
                 </div>
             </div>
             <div class="resultados-financieros">
@@ -63,16 +69,22 @@
             <div class="campos-grid">
                 <div class="campo">
                     <label for="txtMonto">Monto solicitado ($)</label>
-                    <input type="number" id="txtMonto" min="0" step="any" placeholder="Ej. 10000000" inputmode="decimal">
+                    <input type="text" id="txtMonto" min="0" step="any" placeholder="Ej. 10000" inputmode="decimal" maxlength="5">
+                    <!-- <input type="text" id="txtMonto" inputmode="numeric" placeholder="Ej. 10000" maxlength="5"> -->
+                    <small id="errorMonto" class="mensaje-error" aria-live="polite"></small>
                 </div>
                 <div class="campo">
                     <label for="txtPlazo">Plazo (años)</label>
-                    <input type="number" id="txtPlazo" min="1" step="1" placeholder="Ej. 24" inputmode="numeric">
+                    <input type="text" id="txtPlazo" min="1" step="1" placeholder="Ej. 24" inputmode="numeric" maxlength="5">
+                    <!-- <input type="text" id="txtPlazo" inputmode="numeric" placeholder="Ej. 24" maxlength="5"> -->
+                    <small id="errorPlazo" class="mensaje-error" aria-live="polite"></small>
                 </div>
                 <div class="campo campo-completo">
                     <label for="txtTasaInteres">Tasa de interés (%)</label>
-                    <input type="number" id="txtTasaInteres" min="0" step="any" placeholder="Ej. 1.5" inputmode="decimal">
-                    <small>Ingresa la tasa en el formato que espera tu calculadora actual.</small>
+                    <input type="text" id="txtTasaInteres" min="0" step="any" placeholder="Ej. 1.5" inputmode="decimal" maxlength="5">
+                    <!-- <input type="text" id="txtTasaInteres" inputmode="numeric" placeholder="Ej. 15" maxlength="5"> -->
+                    <small id="errorTasaInteres" class="mensaje-error" aria-live="polite">Ingresa la tasa en el formato que espera tu calculadora actual.</small>
+                    <!-- <small>Ingresa la tasa en el formato que espera tu calculadora actual.</small> -->
                 </div>
             </div>
             <div class="acciones">

@@ -1,0 +1,32 @@
+Actúa como Desarrollador Frontend y Diseñador grafico experto. Quiero validar inputs en JavaScript.
+
+Reglas:
+
+-Mostrar mensaje debajo de cada input (no usar alert)
+-El mensaje debe ser de color rojo y en cursiva
+
+validaciones:
+
+-Solo números
+-Máximo 5 dígitos
+-No puede estar vacío
+
+Consideraciones Técnicas:
+
+Usar los mismos IDs existentes:
+
+txtIngresos, txtEgresos, txtMonto, txtPlazo, txtTasaInteres
+
+
+Eventos a usar
+
+-Onblur para validar cuando el usuario sale del input
+-No modificar IDs existentes
+-Mostrar errores en un elemento debajo del input
+-Devuélveme solo las partes que debo agregar o modificar (HTML, CSS y Js), no todo el código.
+
+
+
+bueno y si en ingresos y egresos quisiera recibir valores flotantes como permito que la validacion me los reciba que ajuste en el html css y javascript tendria que hacer para que ingresos y egresos reciban nuemeros flotantes de dos cifras significativas pero maximo 5 digitos en la parte entera
+
+
